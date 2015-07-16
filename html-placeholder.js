@@ -6,7 +6,9 @@
       this.options  = options;
       this.html     = options.html  || '';
 
-      quill.on( 'selection-change', this.placeholderHandler );
+      var handler   = this.placeholderHandler.bind(this);
+
+      quill.on( 'selection-change', handler );
       quill.placeholder = this.html;
   };
 
