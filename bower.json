@@ -1,0 +1,16 @@
+{
+  "name": "quill-html-placeholder",
+  "version": "1.0.0",
+  "homepage": "https://github.com/ksivamuthu/quill-html-placeholder",
+  "authors": [
+    "Sivamuthu Kumar <sivamuthukumar07@gmail.com>"
+  ],
+  "description": "a placeholder html module for quill",
+  "main": "html-placeholder.js",
+  "keywords": [
+    "quill",
+    "html",
+    "placeholder"
+  ],
+  "license": "MIT"
+}
